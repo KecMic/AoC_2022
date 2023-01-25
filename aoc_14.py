@@ -180,9 +180,9 @@ def solve(data,vis_progress=False):
             if not left_is_within_bounds:
                ### Part 2 START ###
                #TODO
-               sand_pos = left + (0,2)
-               occupied_pos.append(sand_pos)
-               occupied_by_sand.append(sand_pos) # for DEBUG
+               #sand_pos = left + (0,2)
+               #occupied_pos.append(sand_pos)
+               #occupied_by_sand.append(sand_pos) # for DEBUG
                # add sand_pos to map_x2ys
                x,y = sand_pos
                if not x in map_x2ys:
